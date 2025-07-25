@@ -1,0 +1,228 @@
+{
+    "title": "Inventário de Crenças sobre o Dinheiro (KMSI - Adaptado)",
+    "version_info": "(Klontz, ). Versão Brasileira (Gouveia et al., 2022)",
+    "instructions": "Por favor, leia cada frase abaixo e marque o quanto você concorda com as afirmações, utilizando a seguinte escala:\n\n1 = Discordo totalmente | 2 = Discordo | 3 = Discordo um pouco | 4 = Concordo um pouco | 5 = Concordo | 6 = Concordo totalmente\n\nUse essa pontuação para determinar o quanto você se identifica com cada afirmação sobre o dinheiro.",
+    "likert_scale": [
+        {
+            "value": 1,
+            "text": "Discordo totalmente"
+        },
+        {
+            "value": 2,
+            "text": "Discordo"
+        },
+        {
+            "value": 3,
+            "text": "Discordo um pouco"
+        },
+        {
+            "value": 4,
+            "text": "Concordo um pouco"
+        },
+        {
+            "value": 5,
+            "text": "Concordo"
+        },
+        {
+            "value": 6,
+            "text": "Concordo totalmente"
+        }
+    ],
+    "questions": [
+        {
+            "number": 1,
+            "text": "Sinto que não é justo ter muito dinheiro enquanto outras pessoas passam necessidade."
+        },
+        {
+            "number": 2,
+            "text": "Quem tem muito dinheiro quase sempre é ganancioso."
+        },
+        {
+            "number": 3,
+            "text": "Muita gente enriquece às custas dos outros."
+        },
+        {
+            "number": 4,
+            "text": "Às vezes sinto que não mereço ganhar dinheiro."
+        },
+        {
+            "number": 5,
+            "text": "Pessoas boas não deveriam se preocupar tanto com dinheiro."
+        },
+        {
+            "number": 6,
+            "text": "No Brasil, é difícil manter a ética e enriquecer ao mesmo tempo."
+        },
+        {
+            "number": 7,
+            "text": "Viver com pouco pode trazer mais paz de espírito."
+        },
+        {
+            "number": 8,
+            "text": "O dinheiro acaba mudando o caráter das pessoas."
+        },
+        {
+            "number": 9,
+            "text": "Quem enriquece acaba se afastando das raízes e das amizades antigas."
+        },
+        {
+            "number": 10,
+            "text": "Minha vida melhoraria bastante se eu tivesse mais dinheiro."
+        },
+        {
+            "number": 11,
+            "text": "Ter mais dinheiro me faria mais feliz."
+        },
+        {
+            "number": 12,
+            "text": "É difícil ser pobre e manter o bem-estar."
+        },
+        {
+            "number": 13,
+            "text": "Sempre parece que falta dinheiro."
+        },
+        {
+            "number": 14,
+            "text": "Dinheiro é sinal de influência e poder."
+        },
+        {
+            "number": 15,
+            "text": "Se eu tivesse dinheiro, meus problemas estariam resolvidos."
+        },
+        {
+            "number": 16,
+            "text": "O dinheiro me daria mais liberdade para viver como quero."
+        },
+        {
+            "number": 17,
+            "text": "Algumas pessoas pobres não fazem por merecer ajuda financeira."
+        },
+        {
+            "number": 18,
+            "text": "Ou você tem uma vida afetiva satisfatória ou corre atrás de dinheiro."
+        },
+        {
+            "number": 19,
+            "text": "Só compro se for novo – carro, casa, tudo tem que ser de primeira."
+        },
+        {
+            "number": 20,
+            "text": "Tem muita gente pobre que é preguiçosa."
+        },
+        {
+            "number": 21,
+            "text": "Ter dinheiro dá sentido à vida."
+        },
+        {
+            "number": 22,
+            "text": "O valor de uma pessoa se mede pelo quanto ela tem."
+        },
+        {
+            "number": 23,
+            "text": "Se não for o melhor, nem vale gastar dinheiro."
+        },
+        {
+            "number": 24,
+            "text": "O sucesso de alguém se mede pelo quanto ganha."
+        },
+        {
+            "number": 25,
+            "text": "Falar sobre quanto se ganha é falta de educação."
+        },
+        {
+            "number": 26,
+            "text": "É indelicado perguntar quanto alguém tem ou ganha."
+        },
+        {
+            "number": 27,
+            "text": "Dinheiro bom é dinheiro guardado."
+        },
+        {
+            "number": 28,
+            "text": "É sempre bom ter uma reserva para emergências."
+        },
+        {
+            "number": 29,
+            "text": "Dinheiro fácil não tem valor – tem que trabalhar para ter."
+        },
+        {
+            "number": 30,
+            "text": "Fico muito ansioso se não tenho uma reserva guardada."
+        },
+        {
+            "number": 31,
+            "text": "Sempre comparo preços antes de comprar qualquer coisa."
+        },
+        {
+            "number": 32,
+            "text": "Gastar dinheiro comigo mesmo parece exagero."
+        }
+    ],
+    "scoring_rules": {
+        "Evitação do Dinheiro": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            24
+        ],
+        "Adoração ao Dinheiro": [
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+        ],
+        "Status do Dinheiro": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+        ],
+        "Vigilância com o Dinheiro": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+        ]
+    },
+    "interpretation_rules": {
+        "Evitação do Dinheiro": [
+            "9–18: Sem problema com evitação",
+            "19–27: Alguns sintomas de evitação",
+            "28–36: Em risco de evitação",
+            "37–54: Evitação intensa"
+        ],
+        "Adoração ao Dinheiro": [
+            "7–14: Sem problema com adoração",
+            "15–30: Alguns sintomas de adoração",
+            "31–38: Em risco de adoração",
+            "39–49: Adoração intensa"
+        ],
+        "Status do Dinheiro": [
+            "8–16: Sem problema com crenças de status",
+            "17–24: Alguns sintomas de crenças de status",
+            "25–32: Em risco de crenças de status",
+            "33–48: Crenças de status intensas"
+        ],
+        "Vigilância com o Dinheiro": [
+            "8–16: Sem problema com vigilância",
+            "17–24: Alguns sintomas de vigilância",
+            "25–32: Em risco de vigilância",
+            "33–48: Vigilância excessiva"
+        ]
+    }
+}
