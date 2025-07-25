@@ -1,0 +1,77 @@
+// Estrutura de projeto React com Vite pronta para Netlify
+
+// 1. Crie a estrutura do projeto Vite + React:
+// Rode no terminal:
+// npm create vite@latest moneybelief-form -- --template react
+
+// 2. Entre na pasta do projeto:
+// cd moneybelief-form
+
+// 3. Instale as dependências:
+// npm install
+
+// 4. Crie o arquivo vite.config.js com base correta para Netlify:
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  base: '/', // como você está usando domínio personalizado
+  plugins: [react()],
+})
+
+// 5. Adicione os scripts ao package.json:
+// (já vem por padrão, mas verifique)
+
+// "scripts": {
+//   "dev": "vite",
+//   "build": "vite build",
+//   "preview": "vite preview"
+// },
+
+// 6. Copie para dentro da pasta /src:
+// - App.jsx (o que você me enviou)
+// - App.css
+// - kmsi_data.json (em /src/assets/kmsi_data.json)
+
+// 7. Edite main.jsx para renderizar App:
+
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './App.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+)
+
+// 8. Certifique-se de que seu index.html está em /public (ou / raiz do projeto)
+// Deve conter:
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventário de Crenças sobre o Dinheiro</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+// 9. Commit no GitHub
+// git init
+git remote add origin https://github.com/arthurberberian/moneybelief
+// git add .
+// git commit -m "Projeto Vite configurado para Netlify"
+// git push -u origin main
+
+// 10. Na Netlify:
+// - Build command: npm run build
+// - Publish directory: dist
+
+// E pronto!
